@@ -49,5 +49,11 @@
     "uuid1": ["use-uuid4-not-uuid1"],
     "simplejson": ["use-json-instead"],
     "lorem": ["lorem-ipsum-text"],
-    "ASC728": ["ASC718"]
+    "ASC728": ["ASC718"],
+    "blacklist" : ["use-denylist-instead", "use-blocklist-instead", "use-disallow-list-instead"],
+    "whitelist" : ["use-allowlist-instead", "use-pass-list-instead", "use-accept-list-instead", "use-approved-list-instead"],
+    "master" : ["use-primary-instead", "use-controller-instead", "use-leader-instead", "use-main-instead"],
+    "slave" : ["use-follower-instead", "use-replica-instead", "use-standby-instead"],
+    "grandfather" : ["use-legacy-instead", "use-historical-instead"],
+    "grandfathered" : ["use-legacy-instead", "use-historical-instead"]
 }
